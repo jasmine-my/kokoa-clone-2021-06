@@ -1,0 +1,58 @@
+.user-component {
+    margin: 8px var(--margin);
+}
+.user-component,
+.user-component_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-component_avatar {
+    border-radius: 40%;
+    background: url("../../img/kokoa.png") center center no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+.user-component_avatar-lg{
+    width: 60px;
+    height: 60px;
+    background-image: url("../../img/profileimg.png");
+}
+.user-component_avatar-md{
+    width: 45px;
+    height: 45px;
+}
+
+.user-component_title {
+    font-size: 1.2rem;
+}
+.user-component_title-border {
+    font-weight: 600;
+}
+
+.user-component_column:last-of-type {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component_subtitle {
+    color:rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+.user-component_column-right {
+    display: flex;
+    flex-direction: column;
+}
+.user-component_column-right span{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}

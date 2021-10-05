@@ -1,0 +1,57 @@
+.screen-header_icon ul li {
+    position: relative;
+}
+.screen-header_icon ul li:last-of-type span {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--red);
+}
+
+.select a{
+    font-weight: 900;
+    color: #000;
+}
+
+.find-menu {
+    padding: 16px 30px;
+}
+.find-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-menu_list div {
+    cursor: pointer;
+    text-align: center;
+}
+.find-menu_list div p {
+    margin-top: 30px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.find-container {
+    margin: 0 var(--margin);
+}
+.find-container_title {
+    margin: 16px 0;
+    padding-top: 16px;
+    border-top:1px solid rgba(0,0,0,0.3);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.5);
+}
+.find-container_contents {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,0.5);
+}

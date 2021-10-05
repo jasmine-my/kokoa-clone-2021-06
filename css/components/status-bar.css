@@ -1,3 +1,9 @@
+.status {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: #fff;
+}
 .status-bar{
     display: flex;
     justify-content: space-between;
